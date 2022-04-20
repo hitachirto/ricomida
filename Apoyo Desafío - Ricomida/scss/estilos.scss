@@ -1,0 +1,25 @@
+
+
+$principal: rgba(55,58,60,255);
+
+
+$primary: $principal;
+
+
+
+h1.rico {
+    font-family: 'Lobster', cursive;
+    color: white;
+}
+p.rico {
+    font-family: 'Lobster', cursive;
+    color: white;
+}
+.trex{
+    opacity: 1;
+}
+ul.navbar-nav {
+    padding-left: 50%;
+}
+
+@import "../libs/bootstrap/scss/bootstrap";

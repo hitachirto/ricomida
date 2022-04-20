@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link href="../css/estilos.css" rel="stylesheet">
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../Apoyo Desafío - Ricomida/css/estilos.css"></script>
+    <title>Ricomida</title>
+</head>
+<body>
+    <div class="container  col-12 ">
+    
+      <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+        <div class="container-fluid">
+          <h1 class="rico ps-5">Ricomida</h1>
+          <a id="rico" class="navbar-brand px-lg-5" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="#">inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Recetas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled text-white">Contactos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+       <div class="container col-12">
+        <div class="hero">
+          <div class="row d-sm-flex pt-3">
+            <div class="col">
+              <img src="../Apoyo Desafío - Ricomida/Assets - Ricomida/img/principal.jpg" class="img-fluid rounded-start" width="500px" alt="...">
+            </div>
+            <div class="col">
+              <div class="card-body">
+                <h1 class="card-title">PIZZA AL ESTILO CHICAGO CON ESPINACAS Y CHAMPIÑONES</h1>
+                <hr class="trex" size="4" color="black">
+                <h4 class="card-text">110 MIN / 6 A 8 PORCIONES</h4>
+                <button id="enviarCorreo" type="button" class="btn btn-light" data-bs-toggle="tooltip"data-bs-placement="top" title="presiona para enviar el correo">Enviar Correo</button>
+                <button id="enviarCorreo" type="button" class="btn btn-light" data-bs-toggle="tooltip2"data-bs-placement="right" title="agrega esta receta a tus favoritos">añadir a favoritos</button>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+</div>
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner d-none d-sm-block">
+    <div class="carousel-item active">
+      <div class="row pt-3">
+      <div class="col md-3 col-lg-3 col-xl-3">
+      <img src="../Apoyo Desafío - Ricomida/Assets - Ricomida/img/slider-1.png" class="img-fluid" alt="...">
+    </div>
+    <div class="col md-3 col-lg-3 col-xl-3">
+      <img src="../Apoyo Desafío - Ricomida/Assets - Ricomida/img/slider-2.png" class="img-fluid" alt="...">
+    </div>
+    <div class="col md-3 col-lg-3 col-xl-3">
+      <img src="../Apoyo Desafío - Ricomida/Assets - Ricomida/img/slider-3.png" class="img-fluid" alt="...">
+    </div>
+    <div class="col md-3 col-lg-3 col-xl-3">
+      <img src="../Apoyo Desafío - Ricomida/Assets - Ricomida/img/slider-4.png" class="img-fluid" alt="...">
+    </div>
+    </div>
+    </div>
+  
+  <div class="carousel-item text-dark">
+    <div class="row pt-3">
+      <div class="col md-3 col-lg-3 col-xl-3">
+        <img src="../Apoyo Desafío - Ricomida/Assets - Ricomida/img/slider-5.png" class="img-fluid" alt="...">
+      </div>
+      <div class="col md-3 col-lg-3 col-xl-3">
+        <img src="../Apoyo Desafío - Ricomida/Assets - Ricomida/img/slider-6.png" class="img-fluid" alt="...">
+      </div>
+      <div class="col md-3 col-lg-3 col-xl-3">
+        <img src="../Apoyo Desafío - Ricomida/Assets - Ricomida/img/slider-7.png" class="img-fluid" alt="...">
+      </div>
+      <div class="col md-3 col-lg-3 col-xl-3">
+        <img src="../Apoyo Desafío - Ricomida/Assets - Ricomida/img/slider-8.png" class="img-fluid" alt="...">
+      </div>
+
+
+    </div>
+
+  </div>
+</div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<hr class="trex" size="4" color="black">
+
+    <div class="container col-12">
+      <div class="row">
+        <div class="col px-5">
+          
+          <h2 class="text-right"><u>INGREDIENTES</u></h2>
+          <p>menu</p>       
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor expedita repellendus praesentium inventore omnis atque voluptatibus aliquid aspernatur consequuntur deserunt ipsam, rerum neque quasi at numquam deleniti optio labore obcaecati! </p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi dolorem possimus fugiat, non minus voluptas vitae cumque architecto quibusdam eveniet rem unde necessitatibus quia! Laborum molestiae dolor delectus illum ipsa!
+          Ipsa non quasi eaque qui possimus facere expedita facilis officiis totam quod deleniti, labore dicta nobis vitae delectus nemo vel. Pariatur, corrupti incidunt repellendus consectetur ipsam distinctio dolore sapiente. Ipsum.</p>
+          <p>cebollas</p>
+        </div>
+<div class="col px-5">
+          <H2 class="text-right"><u>PREPARACION</u></H2>
+          <p>1.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque inventore in esse ex temporibus error ab recusandae facilis fugit a eveniet voluptatibus, expedita autem non ad! Unde illum molestias velit.</p>
+          <p>2.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum rem voluptatem quos repellendus cupiditate blanditiis quam! Aliquam voluptatibus provident aperiam odit voluptate tempore ipsum! Debitis officia error nemo provident ab. </p>
+          <p>3.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et quisquam dignissimos qui laboriosam consequuntur aut ipsam laborum, doloremque exercitationem? Mollitia id explicabo necessitatibus earum numquam quasi dicta sapiente deleniti neque?</p>
+          <p>4.calentar al horno</p>
+          <p>5.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi aliquid aperiam, doloribus delectus placeat officia dolore aspernatur dolorem, magnam ipsam omnis temporibus quasi provident nesciunt eaque! Sed atque culpa velit.</p>
+
+</div>
+      </div>
+
+    </div>
+    <hr class="trex" size="4" color="black">
+    <section>
+      <h1 class="nuestros text-center pb-3">RECETAS RELACIONADAS</h1>
+      <div class="row mt-6 px-5 text-center ">
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="Assets - Ricomida/img/recipe-card-1.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Panqueques con manjar y crema</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            
+            
+          </div>
+
+        </div>
+        <div class="col">
+          <div class="card pb-4" style="width: 18rem;">
+            <img class="card-img-top" src="Assets - Ricomida/img/recipe-card-2.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Tiramizu</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+           
+            
+          </div>
+
+        </div>
+        <div class="col">
+          <div class="card pb-4" style="width: 18rem;">
+            <img class="card-img-top" src="Assets - Ricomida/img/recipe-card-3.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">plateada</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+    
+    
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+    <footer>
+      <div class=" container bg-danger col-12 pb-5 pt-5 mt-3 text-white text-center mb-0">
+      <h2 >SUSCRIBETE A NUESTRO NEWSLETTER</h2>
+      <p>y obten las mejores recetas que tenemos en ricomida</p><h1 class="rico">Ricomida</h1>
+      <button type="button" class="btn btn-outline-light">empezar</button></div>
+      <div class="bg-primary col-12 p-2 text-center">
+        <p class="rico">Ricomida</p>
+      </div>
+    </footer>
+    
+
+        </div>
+
+
+        
+
+
+    
+    
+    <script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../Apoyo Desafío - Ricomida/js/tilin.js"></script>
+    
+    <script type="text/javascript">
+     /* var tooltipTriggerList =
+[].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+
+var tooltipTriggerList =
+[].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip2"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+
+
+
+$(function(){
+  $('#enviarCorreo').click(function(){
+    alert("El correo fue enviado correctamente....");
+  });
+});
+
+
+$("u").click(function(){
+$(this).css({
+"color": "red",
+});
+});*/
+
+    </script>
+    
+</body>
+</html>
